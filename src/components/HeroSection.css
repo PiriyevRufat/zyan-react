@@ -1,0 +1,32 @@
+.herosect{
+    height: 100vh;
+    background: url(https://zyan.vercel.app/images/bg/banner.jpg);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100vh;
+    padding-top: 80px;
+    width: 100%;
+}
+.herosect-cont{
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1320px;
+}
+.herosect-cont h1{
+    width: 720px;
+    color: white;
+    font-size: 60px;
+}
+.herosect-cont p{
+    width: 75%;
+    color: white;
+    margin-top: 40px;
+}
+.herosect-pfp img{
+    height: 577px;
+    width: 526px;
+}
