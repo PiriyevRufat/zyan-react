@@ -25,8 +25,101 @@
     width: 75%;
     color: white;
     margin-top: 40px;
+    margin-bottom: 80px;
 }
-.herosect-pfp img{
-    height: 577px;
-    width: 526px;
+.borderofavatar{
+    height: 570px;
+    width: 525px;
+}
+.avatar{
+    width: 445px;
+    height: 490px;
+    position: absolute;
+    top: 22%;
+    right: 18%;
+}
+.herosect-lowerbtn ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.herosect-lowerbtn ul li{
+    text-decoration: none;
+}
+.herosect-lowerbtn ul li a{
+    text-decoration: none;
+}
+.loading-btn{
+    background-color: #55e6a5;
+    padding: 20px 40px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+.loading-btn:hover{
+    transition: 0.3s;
+    background-color: #141c27;
+    color: white;
+}
+.fa-play{
+    color: #09101a;
+    background-color: #55e6a5;
+    padding: 12px 14px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+.video-btn{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+@media only screen and (max-width: 925px) {
+    .container{
+        max-width: 900px;
+    }
+    .borderofavatar{
+        display: none;
+    }
+    .avatar{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1324px) {
+    .borderofavatar{
+        display: none;
+    }
+    .avatar{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1324px) {
+    .navbarcont{
+        padding: 20px;
+    }
+    .herosect{
+        padding: 20px;
+    }
+    .videosect{
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 880px) {
+    .navbar-pages ul{
+        display: none;}     
+}
+@media only screen and (max-width: 720px) {
+    .herosect{
+        padding: 20px;
+    }
+    .herosect-cont{
+        width: 500px;
+    }
+    .herosect-lowerbtn ul{
+        display: none;
+    }
+}
+@media only screen and (max-width: 602px) {
+    .skillscards{
+        flex-direction: column;
+    }
 }
